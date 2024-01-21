@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+.container{
+	margin: 0 auto;
+	padding: 15px;
+	width: 90%;
+	overflow: hidden;
+
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 55%;
+	float: right;
+}
+.menu ul{
+	float: left;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-top: 10px;
+}
+.menu ul li a {
+	text-decoration: none;
+	margin: 0 45px;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+	font-family: serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color:#626262 ;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.menu ul li:hover a {
+	border-bottom: 1px solid skyblue;
+}
+/*header start*/
+/*banner start*/
+.banner{
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
